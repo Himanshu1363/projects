@@ -1,0 +1,36 @@
+body {
+    background: url("table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:20px auto;
+    color: white;
+    
+    text-align: center;
+    
+}
+h1 {
+    color: goldenrod;
+}
+#messageEl{
+font-style: italic;
+}
+button {
+    width: 300px;
+padding: 0.5rem 3.5rem;
+color:#016f32 ;
+background-color: goldenrod;
+margin: 5px auto;
+font-size: 1.2rem;
+font-weight: bolder;
+border: none;
+border-radius: 0.2rem;
+}
