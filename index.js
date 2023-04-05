@@ -29,6 +29,7 @@ function randomm()
 
 function startGame(){
     isAlive = true
+    hasBlackJack = false
     let firstCard = randomm()
 let secondCard = randomm()
 sum = firstCard + secondCard
